@@ -1,0 +1,169 @@
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 0;
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.title900 {
+  font-family: 'Montserrat';
+  line-height: 1.75;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.header-container {
+  padding-bottom: 7%;
+}
+
+.btn {
+  margin: 5% 1.5% 7% 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.dog-header-pic {
+  width: 60%;
+  transform: rotate(20deg);
+  padding-bottom: 5%;
+  position: absolute;
+  right: 150px;
+}
+
+.pic-position {
+  position: relative;
+}
+
+.navbar {
+  padding-bottom: 5rem;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.features-title {
+  font-weight: 600;
+  text-align: center;
+}
+
+.features-text {
+  text-align: center;
+  padding: 0 15%;
+}
+
+.fas {
+  color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.cta-h2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 3rem
+  line-height: 1.5;
+  color: white;
+}
+.testimonial-image {
+  width: 100px;
+  border-radius: 100%;
+  padding: 10px 10px;
+}
+
+em {
+  color: white;
+}
+
+.press-image {
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-title {
+  color: black;
+}
+
+#pricing {
+  text-align: center;
+}
+
+@media (max-width:960px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog-header-pic {
+    transform: rotate(0);
+    position: static;
+  }
+}
+#cta {
+  background-color:  #ff4c68;
+  text-align: center;
+}
+#footer {
+  background-color:  white;
+  text-align: center;
+}
+
+.cta-padding{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.footer-text{
+  color: grey;
+}

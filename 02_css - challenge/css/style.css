@@ -1,0 +1,20 @@
+h1{
+  color:red;
+  font-size: 20px;
+}
+
+img {
+  background-color:red;
+}
+
+body{
+  align-items: center;
+}
+
+.bacon {
+  background-color:green;
+}
+
+.bacon:hover {
+  background-color:red;
+}
